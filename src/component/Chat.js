@@ -33,7 +33,7 @@ function Chat() {
       e?.preventDefault();
       setChatMessage([...chatMessage, { user: "self", message: form.message }]);
       setForm({ ...form, message: "" });
-      const response = await fetch("http://localhost:3050", {
+      const response = await fetch("https://backend-h427.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
