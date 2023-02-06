@@ -107,7 +107,7 @@ label{
 .close:hover {
   opacity: 1;
 }
-.close:before, .close:after {
+/* .close:before, .close:after {
   position: absolute;
   left: 15px;
   content: ' ';
@@ -120,7 +120,7 @@ label{
 }
 .close:after {
   transform: rotate(-45deg);
-}
+} */
 .chat-main{
   padding-bottom: 70px;
 background-color: #545454 !important;
@@ -198,9 +198,9 @@ width: 50px;
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #000;
   float: right;
-  font-size: 28px;
+  font-size: 42px;
   font-weight: bold;
 }
 
@@ -215,4 +215,10 @@ width: 50px;
     justify-content: center;
     align-items: center;
     height: 90vh;
+}
+.mic-main h1 span{
+  margin-left: 13px;
+  color: #b1daff;
+  text-decoration: underline;
+  cursor: pointer;
 }
